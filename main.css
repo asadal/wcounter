@@ -85,11 +85,11 @@ body {
     position: relative;
     height: 25px;
     width: 80px;
-    margin: 0 10px 18px 0;
+    margin: 0 10px 10px 0;
     text-decoration: none;
     font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
-    line-height: 25px;
+    line-height: 30px;
     text-align: center;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -100,7 +100,7 @@ body {
     content: '';
     position: absolute;
     left: -1px;
-    height: 25px;
+    height: 30px;
     width: 80px;
     bottom: -1px;
     -webkit-border-radius: 3px;
@@ -112,7 +112,7 @@ body {
     content: '';
     position: absolute;
     left: -1px;
-    height: 25px;
+    height: 30px;
     width: 80px;
     bottom: -1px;
     -webkit-border-radius: 3px;
