@@ -71,6 +71,7 @@
             document.getElementById('counter').value = null;
             let content = '';
             localStorage.setItem("save", content);
+            counter(content)
             document.getElementById('counter').value = content;
         }
 
