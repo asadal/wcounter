@@ -68,10 +68,7 @@
         }   
             
        function empty(){
-            let content = localStorage.getItem("save");
-                counter(content)
-                document.getElementById('counter').value = null;
-                counter(null);
+            document.getElementById('counter').value = null;
         }
 
         window.onload = init;
