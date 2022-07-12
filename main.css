@@ -20,7 +20,7 @@
 
 a {
     text-decoration: none;
-    font-family: 'Noto Sans KR Bold';
+    font-family: 'IBM Plex Sans KR Bold', 'Noto Sans KR Bold';
     color: #1d1a1a;
     letter-spacing: -1px;
 }
@@ -31,7 +31,7 @@ body {
     align-items: center;
     margin: 0;
     padding: 0;
-    font-family: 'Noto Sans KR';
+    font-family: 'IBM Plex Sans KR', 'Noto Sans KR';
 }
 
 .center {
@@ -51,7 +51,7 @@ body {
 }
 
 .title {
-    font-family: 'Noto Sans KR Bold';
+    font-family: 'IBM Plex Sans KR', 'Noto Sans KR Bold';
     font-size: 20pt;
     letter-spacing: -1.25px;
     color: #1d1a1a;
@@ -66,7 +66,7 @@ body {
 }
 
 .counter {
-    font-family: 'Noto Sans KR';
+    font-family: 'IBM Plex Sans KR', 'Noto Sans KR';
     font-size: 11pt;
     border: 0;
     resize: none;
@@ -87,7 +87,7 @@ body {
     width: 80px;
     margin: 0 0 10px 10px;
     text-decoration: none;
-    font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 12px 'IBM Plex Sans KR', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
     line-height: 20px;
     text-align: center;
@@ -115,7 +115,7 @@ body {
 }
 
 .result {
-    font-family: 'Noto Sans KR Bold';
+    font-family: 'IBM Plex Sans KR Bold', 'Noto Sans KR Bold';
     font-size: 16pt;
     letter-spacing: -1.25px;
     color: #1d1a1a;
