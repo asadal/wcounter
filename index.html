@@ -69,6 +69,8 @@
             
        function empty(){
             document.getElementById('counter').value = null;
+            let content = null;
+            localStorage.setItem("save", content);
         }
 
         window.onload = init;
