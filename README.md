@@ -1,6 +1,6 @@
 # wcounter
 
-*글자수 계산기*입니다.
+**글자수 계산기**입니다.
 
 🌊나이스(NEIS) 글자수 계산기(https://hjh010501.github.io/neis-counter/)를 토대로 수정했습니다.
 
