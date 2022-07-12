@@ -89,35 +89,29 @@ body {
     text-decoration: none;
     font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
-    line-height: 30px;
+    line-height: 20px;
     text-align: center;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .button:before {
     content: '';
     position: absolute;
-    left: -1px;
+    right: -1px;
     height: 30px;
     width: 80px;
     bottom: -1px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .button:after {
     content: '';
     position: absolute;
-    left: -1px;
+    right: -1px;
     height: 30px;
     width: 80px;
     bottom: -1px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .result {
