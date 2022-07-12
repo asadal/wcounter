@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 @font-face {
-    font-family: 'Noto Sans KR';
+    font-family: 'IBM Plex Sans KR', 'Noto Sans KR';
     font-style: normal;
     font-weight: 400;
     src: url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),
