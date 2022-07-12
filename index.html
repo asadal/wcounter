@@ -71,6 +71,7 @@
             document.getElementById('counter').value = null;
             let content = '';
             localStorage.setItem("save", content);
+            var result = english.length + (korean.length * 3) +  number.length + special.length + space.length + (line.length * 2);
         }
 
         window.onload = init;
