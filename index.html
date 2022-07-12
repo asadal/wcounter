@@ -68,10 +68,10 @@
         }   
             
        function empty(){
-        // obj.parentNode 를 이용하여 삭제
             let content = localStorage.getItem("save");
                 counter(content)
                 document.getElementById('counter').value = null;
+                counter(content);
         }
 
         window.onload = init;
