@@ -38,7 +38,7 @@
                 <input class="button" type="button" value="초기화" onclick="empty()">
             </div>
             <textarea oninput="counter(document.getElementById('counter').value)" id="counter" class="counter" cols="40" rows="5"></textarea>
-            <div id="result" class="result">공백 제외 0자, 공백 포함 0자, 0바이트, 원고지 0매(행갈이 제외)</div>
+            <div id="result" class="result">공백 제외 0자, 공백 포함 0자, 0바이트, 원고지 0매</div>
             <span style="font-size: 12pt; color:#aaa; font-family: 'Noto Sans KR'; letter-spacing: -1.25px; float: right; text-align: right;">영어, 숫자, 특수문자, 띄어쓰기 1바이트 / 엔터키 2바이트 / 한글 3바이트</span>
         </div>
         <div class="footbar">
@@ -66,7 +66,7 @@
             var space =  content.replace(/[a-zA-Z]/gi, "").replace(/[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]/gi, "").replace(/[\{\}\[\]\/?.,;:|\)*~`!^\-_+<>@\#$%&\\\=\(\'\"]/gi, "").replace(/[0-9]/gi, "").replace(/(\r\n\t|\n|\r\t)/gm,"");
             var line = content.replace(/[a-zA-Z]/gi, "").replace(/[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]/gi, "").replace(/[\{\}\[\]\/?.,;:|\)*~`!^\-_+<>@\#$%&\\\=\(\'\"]/gi, "").replace(/[0-9]/gi, "").replace(/ /gi, "");
             var result = english.length + (korean.length * 3) +  number.length + special.length + space.length + (line.length * 2);
-            document.getElementById('result').innerHTML = "공백 제외 " + content.replace(/(\r\n\t|\n|\r\t)/gm,"").replace(/ /gi, "").length + "자, 공백 포함 " + content.length + "자, " + result + "바이트, 원고지 " + (content.length/200).toFixed(1) + "매(행갈이 제외)";
+            document.getElementById('result').innerHTML = "공백 제외 " + content.replace(/(\r\n\t|\n|\r\t)/gm,"").replace(/ /gi, "").length + "자, 공백 포함 " + content.length + "자, " + result + "바이트, 원고지 " + (content.length/200).toFixed(1) + "매";
         }   
             
        function empty(){
